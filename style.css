@@ -15,6 +15,11 @@ body{
     width: 200px;
 }
 
+.city_header{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
 .city_image{
     text-align: center;
 }
@@ -26,8 +31,22 @@ body{
     margin: 0.5em;
 }
 
-table, th, td{
+.forlang_header{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+table {
     border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0.5em;
 }
 
 .place_1{
