@@ -2,6 +2,46 @@
 body{
     background-color: #fff;
 }
+
+.my_name{
+    text-align: center;
+}
+
+.my_image{
+    text-align: center;
+}
+
+#my_image{
+    width: 200px;
+}
+
+.city_image{
+    text-align: center;
+}
+
+.city_text{
+    /* border: #011627 1px solid ; */
+    text-align: left;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
 table, th, td{
     border: 1px solid black;
+}
+
+.place_1{
+    display: flex;
+}
+
+.place_1_img{
+    float: left;
+}
+
+.place_2{
+    display: flex;
+}
+
+.place_3{
+    display: flex;
 }
