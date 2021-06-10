@@ -16,7 +16,6 @@ body{
 }
 
 .city_header{
-    padding: 0.5em;
     margin: 0.5em;
 }
 
@@ -32,6 +31,15 @@ body{
 }
 
 .forlang_header{
+    margin: 0.5em;
+}
+
+.forlang_text {
+    text-align: left;
+    margin: 0.5em;
+}
+
+.the_table {
     padding: 0.5em;
     margin: 0.5em;
 }
@@ -40,6 +48,7 @@ table {
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 th, td{
@@ -49,22 +58,30 @@ th, td{
     margin: 0.5em;
 }
 
-.place_1{
+.history_place {
+    text-align: left;
+    margin: 0.5em;
+}
+
+.box {
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+}
+
+.text_n_img {
     display: flex;
 }
 
-/* .place_1_img{
-    float: right;
-} */
-
-.place_2{
-    display: flex;
+img{
+    width: 150px;
+    height: auto;
 }
 
-/* .place_2_image{
-    align-content: inherit;
-}  */
+.place_2_text {
+    padding-left: 1em; 
+}
 
-.place_3{
-    display: flex;
-} 
+.place_3_text {
+    padding-right: 1em;
+}
