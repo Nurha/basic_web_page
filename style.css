@@ -53,14 +53,18 @@ th, td{
     display: flex;
 }
 
-.place_1_img{
-    float: left;
-}
+/* .place_1_img{
+    float: right;
+} */
 
 .place_2{
     display: flex;
 }
 
+/* .place_2_image{
+    align-content: inherit;
+}  */
+
 .place_3{
     display: flex;
-}
+} 
