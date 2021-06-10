@@ -85,3 +85,9 @@ img{
 .place_3_text {
     padding-right: 1em;
 }
+
+@media (min-width: 500px){
+    .places{
+        display: flex;  
+    }
+}
