@@ -86,7 +86,24 @@ img{
     padding-right: 1em;
 }
 
-@media (min-width: 500px){
+@media (min-width: 700px){
+    .intro {
+        text-align: center;
+        display: flex;
+    }
+
+    .my_name {
+        flex: 0.5;
+        /* border: 2px solid yellow; */
+    }
+
+    .my_name:first-child {
+        margin-right: 20px;
+    }
+
+    .city{
+        display: flex;
+    }
     .places{
         display: flex;  
     }
